@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Card from './card';
+
 export default function Cadastro(){
     const [nome, setNome] = useState('')
     const [email, setEmail] = useState('')
